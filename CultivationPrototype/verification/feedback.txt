@@ -1,0 +1,33 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS cooldown bars initially ready
+PASS hurt overlay initially transparent
+PASS legal melee creates one slash effect
+PASS accepted hit shows actual damage number
+PASS hit updates health and starts white flash
+PASS blocked attack emits no extra slash or damage event
+PASS legal ranged attack creates muzzle effect
+PASS ranged cooldown blocks duplicate muzzle effect
+PASS cooldown bars display ongoing recovery
+PASS cooldown label displays remaining time
+PASS slash and muzzle effects expire
+PASS floating number remains during its lifetime
+PASS presentation effects never apply extra damage
+PASS floating number cleans itself up
+PASS cooldown bars return to ready
+PASS lethal hit immediately stops enemy AI
+PASS lethal hit immediately clears enemy collision
+PASS dead enemy immediately leaves target group
+PASS enemy death creates dissipation effect
+PASS overkill number uses actual remaining health
+PASS dead enemy cannot cause contact damage
+PASS dead enemy actor is freed
+PASS death feedback fully cleans itself up
+PASS accepted player damage triggers red overlay
+PASS immune damage neither repeats pulse nor removes health
+PASS red overlay expires independently of player protection
+PASS death enters dead session state
+PASS player death preserves remaining world enemies
+PASS explicit test reset removes old feedback
+PASS explicit test reset clears dead state and hurt overlay
+RESULT feedback failures=0

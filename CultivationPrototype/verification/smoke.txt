@@ -1,0 +1,32 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS initial health
+PASS player configured protection is 0.5 seconds
+PASS movement through input
+PASS wall blocks movement
+PASS melee directional hit
+PASS melee cooldown
+PASS projectile physics hit
+PASS enemy contact damage
+PASS damage immunity
+PASS player protection still blocks damage after 0.25 seconds
+PASS player can take damage after protection expires
+PASS enemy configured protection is 0.12 seconds
+PASS regression first melee deals full 25 damage
+PASS regression melee during cooldown does not deal damage
+PASS enemy protection expires before melee cooldown
+PASS melee cooldown blocks damage even after enemy protection expires
+PASS regression melee cooldown expires naturally
+PASS regression second legal melee deals full 25 damage
+EVIDENCE direct melee HP: 60 -> 35 -> 35 -> 35 -> 10
+PASS held input first melee deals full damage
+PASS held input cannot bypass melee cooldown
+PASS held input second melee deals full damage after cooldown
+EVIDENCE held melee HP: 60 -> 35 -> 35 -> 10
+PASS cultivation interaction
+PASS cultivation rank progress
+PASS death and restart UI
+PASS dead player cannot move
+PASS scene restart resets health
+PASS restart resets enemies
+RESULT failures=0

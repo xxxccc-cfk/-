@@ -1,0 +1,38 @@
+Godot Engine v4.7.2.stable.official.ed1daf0bf - https://godotengine.org
+
+PASS initial live snapshot passes schema validation
+PASS missing snapshot gives recoverable error
+PASS snapshot writes to disk
+PASS saving again safely replaces existing snapshot
+PASS snapshot parses and validates after disk round trip
+PASS load fixture contains an active projectile
+PASS snapshot loads successfully
+PASS load immediately disables old projectile before deletion
+PASS load restores position and health
+PASS load restores cultivation progress
+PASS load preserves protection and attack cooldowns
+PASS defeated enemy stays absent after load
+PASS load restores surviving enemy health position home and protection
+PASS live snapshot restores playing session state
+PASS load removes obsolete transient effects and projectiles
+PASS incompatible snapshot rejected without changing world
+PASS negative health rejected
+PASS fractional health rejected
+PASS position inside wall rejected
+PASS wrong field type rejected
+PASS invalid enemy health rejected
+PASS invalid data cannot overwrite good snapshot
+PASS good on-disk snapshot survives rejected write
+PASS unwritable destination returns recoverable error
+PASS corrupt snapshot leaves running game unchanged
+PASS death preserves world in snapshot
+PASS dead world snapshot can be saved
+PASS initial fixture restores without rebuilding scene
+PASS loading dead snapshot does not resurrect player
+PASS loading dead snapshot does not reset world
+PASS new scene can restore saved dead world
+PASS scene reset does not duplicate mouse bindings
+PASS save action writes configured snapshot slot
+PASS load action restores configured snapshot slot
+USER_SAVE_PATH C:/Users/Administrator/AppData/Roaming/Godot/app_userdata/Cultivation Prototype 0.2/stage1-save.json
+RESULT save failures=0
